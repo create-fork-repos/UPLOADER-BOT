@@ -8,8 +8,8 @@ from pyrogram import Client as Clinton
 
 if __name__ == "__main__" :
     # create download directory, if not exist
-    if not os.path.isdir(./DOWNLOADS):
-        os.makedirs(./DOWNLOADS)
+    if not os.path.isdir("./DOWNLOADS"):
+        os.makedirs("./DOWNLOADS")
     plugins = dict(root="plugins")
     Warrior = Clinton("@UPLOADER_X_BOT",
     bot_token="6186365167:AAF8ApYrxjvm-oR0I6CZE_OHyrki9a1RMVw",
