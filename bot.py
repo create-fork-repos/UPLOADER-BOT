@@ -12,8 +12,8 @@ if __name__ == "__main__" :
         os.makedirs(Config.DOWNLOAD_LOCATION)
     plugins = dict(root="plugins")
     Warrior = Clinton("@UPLOADER_X_BOT",
-    bot_token=Config.BOT_TOKEN,
-    api_id=Config.API_ID,
-    api_hash=Config.API_HASH,
+    bot_token=6186365167:AAF8ApYrxjvm-oR0I6CZE_OHyrki9a1RMVw,
+    api_id=3704772,
+    api_hash="b8e50a035abb851c0dd424e14cac4c06",
     plugins=plugins)
     Warrior.run()
